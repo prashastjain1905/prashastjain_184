@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>React Tutorial Assignment</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Tutorial Assignment</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <div class="container">
-    <header>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" class="logo">
-      <h1>React Tutorial</h1>
-    </header>
+    <div class="container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" class="logo">
+            <h1>React Tutorial</h1>
+        </header>
 
-    <main>
-      <aside class="topics">
-        <h2>Topics</h2>
-        <ul>
-          <li>Introduction</li>
-          <li>Components</li>
-          <li>Props</li>
-          <li>State</li>
-          <li>Hooks</li>
-          <li>Lifecycle</li>
-        </ul>
-      </aside>
+        <main>
+            <aside class="topics">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Introduction</li>
+                    <li>Components</li>
+                    <li>Props</li>
+                    <li>State</li>
+                    <li>Hooks</li>
+                    <li>Lifecycle</li>
+                </ul>
+            </aside>
 
-      <section class="details">
-        <div class="topic-detail">
-          <h3>1. Introduction</h3>
-          <p>React is a JavaScript library for building user interfaces.</p>
-        </div>
+            <section class="details">
+                <div class="topic-detail">
+                    <h3>1. Introduction</h3>
+                    <p>React is a JavaScript library for building user interfaces.</p>
+                </div>
 
-        <div class="topic-detail">
-          <h3>2. Components</h3>
-          <p>Components are reusable UI pieces in React.</p>
-        </div>
+                <div class="topic-detail">
+                    <h3>2. Components</h3>
+                    <p>Components are reusable UI pieces in React.</p>
+                </div>
 
-        <div class="topic-detail">
-          <h3>3. Props</h3>
-          <p>Props are inputs to components that make them dynamic.</p>
-        </div>
-      </section>
+                <div class="topic-detail">
+                    <h3>3. Props</h3>
+                    <p>Props are inputs to components that make them dynamic.</p>
+                </div>
+            </section>
 
-      <aside class="counters">
-        <div class="counter">
-          <p>Counter 1: <span id="count1">0</span></p>
-          <button onclick="increment('count1')">Increment</button>
-        </div>
+            <aside class="counters">
+                <div class="counter">
+                    <p>Counter 1: <span id="count1">0</span></p>
+                    <button onclick="increment('count1')">Increment</button>
+                    <button onclick="decrement('count1')">Decrement</button>
+                    <button onclick="reset('count1')">Reset</button>
+                </div>
 
-        <div class="counter">
-          <p>Counter 2: <span id="count2">0</span></p>
-          <button onclick="increment('count2')">Increment</button>
-        </div>
+                <div class="counter">
+                    <p>Counter 2: <span id="count2">0</span></p>
+                    <button onclick="increment('count2')">Increment</button>
+                    <button onclick="decrement('count2')">Decrement</button>
+                    <button onclick="reset('count2')">Reset</button>
+                </div>
 
-        <div class="counter">
-          <p>Counter 3: <span id="count3">0</span></p>
-          <button onclick="increment('count3')">Increment</button>
-        </div>
-      </aside>
-    </main>
-  </div>
+                <div class="counter">
+                    <p>Counter 3: <span id="count3">0</span></p>
+                    <button onclick="increment('count3')">Increment</button>
+                    <button onclick="decrement('count3')">Decrement</button>
+                    <button onclick="reset('count3')">Reset</button>
+                </div>
+            </aside>
 
-  <script src="script.js"></script>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

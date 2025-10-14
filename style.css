@@ -53,3 +53,9 @@ main {
   padding: 10px;
   text-align: center;
 }
+
+button {
+  margin: 5px 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
